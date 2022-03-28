@@ -11,6 +11,7 @@
   inputs.src-progress-v1_1_1.ref   = "refs/tags/v1.1.1";
   inputs.src-progress-v1_1_1.owner = "euantorano";
   inputs.src-progress-v1_1_1.repo  = "progress.nim";
+  inputs.src-progress-v1_1_1.dir   = "";
   inputs.src-progress-v1_1_1.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
