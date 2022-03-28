@@ -11,7 +11,6 @@
   inputs.src-progress-master.ref   = "refs/heads/master";
   inputs.src-progress-master.owner = "euantorano";
   inputs.src-progress-master.repo  = "progress.nim";
-  inputs.src-progress-master.dir   = "";
   inputs.src-progress-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
